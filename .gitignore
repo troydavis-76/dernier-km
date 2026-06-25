@@ -1,0 +1,18 @@
+# Dependances (se regenerent avec npm install)
+node_modules/
+
+# Build du frontend
+dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Variables d'environnement (ne jamais publier de cles)
+.env
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
