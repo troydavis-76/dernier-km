@@ -20,8 +20,8 @@ app = FastAPI(title="Optimisation de tournées de livraison")
 
 # --- CONFIGURATION SUPABASE (SÉNÉGAL) ---
 # 💻 Remplace ces valeurs par TES vraies clés récupérées sur ton tableau de bord Supabase
-SUPABASE_URL = "https://supabase.co" 
-SUPABASE_KEY = "your-anon-key"
+SUPABASE_URL = "https://fiqluuwsjrpqcrrpinsy.supabase.co/rest/v1/" 
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpcWx1dXdzanJwcWNycnBpbnN5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODczMTgyOTUsImV4cCI6MjEwMjg5NDI5NX0.YZ6nrEZ1G5RsDBh7zyEpuMYMxtNrKROrujiVVVvmMCs"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # CORS : autorise l'interface React à appeler l'API.
